@@ -144,7 +144,7 @@ avgChange = changeInPorfits / (finances.length - 1);
 avgChange = avgChange.toFixed(2);
 
 
-console.log("Financial Analysis \n\n--------------------------------");
+console.log("\nFinancial Analysis \n\n--------------------------------");
 console.log("Total Months: " + finances.length,
  "\n\nTotal:  $" + totalAmount,
  "\n\nAverage  $" + avgChange);
